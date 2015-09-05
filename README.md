@@ -1,4 +1,4 @@
-Snippy Static Site
+# Snippy Static Site
 1. Static Components
 	1. dev - [harpjs](http://harpjs.com/)
 		1. install
