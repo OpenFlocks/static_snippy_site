@@ -2,33 +2,47 @@
 1. Static Components
 	1. dev - [harpjs](http://harpjs.com/)
 		1. install
+
 			```
 			sudo npm install -g harp
+
 			andrew@openflocks-laptop:~/openflocks_ws/static_snippy_site$harp init snippy
+
 			andrew@openflocks-laptop:~/openflocks_ws/static_snippy_site/snippy$harp server
 			```
 			* View your site at http://localhost:9000/ in browser.
 		1. compile
+
 			```
 			andrew@openflocks-laptop:~/openflocks_ws/static_snippy_site/snippy$ harp compile
+
 			andrew@openflocks-laptop:~/openflocks_ws/static_snippy_site/snippy$ ls -ali www/
+
 			total 44
+
 			11803953 drwxrwxr-x 2 andrew andrew 4096 Sep  5 22:11 .
+
 			11803933 drwxrwxr-x 4 andrew andrew 4096 Sep  5 22:11 ..
+
 			11803954 -rw-rw-r-- 1 andrew andrew  173 Sep  5 22:11 404.html
+
 			11803955 -rw-rw-r-- 1 andrew andrew  161 Sep  5 22:11 index.html
+
 			11803956 -rw-rw-r-- 1 andrew andrew  205 Sep  5 22:11 main.css
 			```
 	1. deploy
 		1. Install [surge.sh](http://surge.sh/)
+
 			```
 			npm install --global surge
 			```
 		1. In your project directory (compiled output by harp - see www/ above), just run…
+
 			```
 			$ surge
 			```
 		1. Upload site.
+
 			```
 			andrew@openflocks-laptop:~/openflocks_ws/static_snippy_site/snippy/www$ surge
 	
