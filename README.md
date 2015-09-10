@@ -65,7 +65,7 @@
 	1. forms
 		1. **formspree.io**
 	1. comments
-		1. **livefye** - embed the js provided by them
+		1. **livefyre** Community Comments - embed the js provided by them
 	1. search 
 		1. **google custom search engine** - embed the js provided by them
 	1. calendars
