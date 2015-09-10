@@ -59,6 +59,8 @@
 	
 	    		  Success! Project is published and running at snippy.surge.sh
 			```
+1. Design
+	1. [Spring Foliage colour palette](http://www.color-hex.com/color-palette/6913)
 1. Dynamic Components
 	1. forms
 		1. **formspree.io**

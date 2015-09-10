@@ -1,6 +1,6 @@
 {
-	"globals":{
-		"sitename":"Snippy",
-		"email":"andrew.d.wilkie@gmail.com"
-	}
+  "globals": {
+    "sitename": "Snippy",
+    "description": "Open-source, DIY robot that cuts grass"
+  }
 }

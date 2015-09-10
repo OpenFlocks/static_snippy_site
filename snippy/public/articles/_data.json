@@ -1,0 +1,10 @@
+{
+  "about": {
+    "title": "About",
+    "description": "Snippy and OpenFlocks."
+  },
+  "index": {
+    "title": "Snippy",
+    "description": "Open-source, DIY robot that cuts grass."
+  }
+}
