@@ -1,5 +1,7 @@
 div(class="container")
 	div(class="row")
+		!= partial("../_shared_partials/nav.html")
+	div(class="row")
 		h1(class="text-center") #{sitename}
 		hr
 	div(class="row")
@@ -13,3 +15,5 @@ div(class="container")
 			img#SomeImageID(src='2015_prototype_platform.jpg',alt="Platform",title="Platform Prototype", class="img-responsive center-block")
 			hr
 	div(class="text-center") <!-- START: Livefyre Embed --><div id="livefyre-comments"></div><script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script><script type="text/javascript">(function () {var articleId = fyre.conv.load.makeArticleId(null);fyre.conv.load({}, [{el: 'livefyre-comments', network: "livefyre.com", siteId: "377913", articleId: articleId, signed: false, collectionMeta: {articleId: articleId, url: fyre.conv.load.makeCollectionUrl(),}}], function() {});}());</script><!-- END: Livefyre Embed -->
+
+	div(class="text-center") <script src=../js/analytics.js></script>
