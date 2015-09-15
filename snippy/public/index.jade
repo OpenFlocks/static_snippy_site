@@ -1,12 +1,13 @@
-div(class="container")
-	div(class="row")
-		!= partial("_shared_partials/nav.html")
-	div(class="row")
-		h1(class="text-center") #{sitename}
+body
+	div(class="container")
+		div(class="row")
+			!= partial("_shared_partials/_nav.jade")
+		div(class="row")
+			h1(class="text-center") #{sitename}
+			hr
+		div(class="row")
+			h3(class="text-center") #{description}
 		hr
-	div(class="row")
-		h3(class="text-center") #{description}
-	hr
-	img#SomeImageID(src='/snippy.jpg',alt="Snippy!",title="Snippy image title", class="img-responsive center-block")
+		img#SomeImageID(src='/snippy.jpg',alt="Snippy!",title="Snippy image title", class="img-responsive center-block")
 
-	div(class="text-center") <script src=js/analytics.js></script>
+		div(class="text-center") <script src=js/analytics.js></script>
